@@ -1,0 +1,101 @@
+{
+  "masas": {
+    "fina": {
+      "label": "Masa fina",
+      "price": 10,
+      "img": "./assets/img/masa/fina.png"
+    },
+    "media": {
+      "label": "Masa media",
+      "price": 14,
+      "img": "./assets/img/masa/media.png"
+    },
+    "gruesa": {
+      "label": "Masa Gruesa",
+      "price": 19,
+      "img": "./assets/img/masa/gruesa.png"
+    }
+  },
+  "ingredientes": {
+    "york": {
+      "label": "Jamón York",
+      "price": 3,
+      "thumbnail": "./assets/img/thumbnails/york.png",
+      "img": "./assets/img/ingredientes/jamon.png"
+    },
+    "champis": {
+      "label": "Champiñones",
+      "price": 3,
+      "thumbnail": "./assets/img/thumbnails/champis.png",
+      "img": "./assets/img/ingredientes/champis.png"
+    },
+    "pina": {
+      "label": "Piña",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/pina.png",
+      "img": "./assets/img/ingredientes/pina.png"
+    },
+    "salchicha": {
+      "label": "Salchichas",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/salchicha.png",
+      "img": "./assets/img/ingredientes/salchicha.png"
+    },
+    "queso": {
+      "label": "Queso",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/queso.png",
+      "img": "./assets/img/ingredientes/queso.png"
+    },
+    "aceitunas": {
+      "label": "Aceitunas",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/aceitunas.png",
+      "img": "./assets/img/ingredientes/aceitunas.png"
+    },
+    "cebolla": {
+      "label": "Cebolla",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/cebolla.png",
+      "img": "./assets/img/ingredientes/cebolla.png"
+    },
+    "rucula": {
+      "label": "Rúcula",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/rucula.png",
+      "img": "./assets/img/ingredientes/rucula.png"
+    }
+  },
+  "bebidas": {
+    "nada": {
+      "label": "No, gracias",
+      "price": 0,
+      "thumbnail": "",
+      "img": ""
+    },
+    "agua": {
+      "label": "Agua",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/agua.png",
+      "img": "./assets/img/ingredientes/queso.png"
+    },
+    "coca-cola": {
+      "label": "Coca Cola",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/coca-cola.png",
+      "img": "./assets/img/ingredientes/queso.png"
+    },
+    "fanta-naranja": {
+      "label": "Fanta Naranja",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/fanta-naranja.png",
+      "img": "./assets/img/ingredientes/queso.png"
+    },
+    "fanta-limon": {
+      "label": "Fanta Limón",
+      "price": 4,
+      "thumbnail": "./assets/img/thumbnails/fanta-limon.png",
+      "img": "./assets/img/ingredientes/queso.png"
+    }
+  }
+}

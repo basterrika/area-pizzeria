@@ -1,0 +1,21 @@
+{
+  "name": "area-pizzeria",
+  "homepage": "https://github.com/basterrika/area-pizzeria",
+  "authors": [
+    "mikel <m.basterrika@areafor.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sticky-sidebar": "^3.3.3",
+    "bootstrap": "^5.2.3"
+  }
+}

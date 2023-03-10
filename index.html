@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Personalizador de Pizzas</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.min.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar navbar-dark bg-dark">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">Pizzería</a>
+        </div>
+    </nav>
+</header>
+
+<section class="container">
+    <div class="row personalizador">
+        <div class="col-lg-8">
+            <div class="title-wrapper">
+                <h1 class="title">Crea tu pizza a tu gusto</h1>
+                <p class="subtitle">
+                    Diviértete creando tu pizza perfecta,&nbsp;elige tu masa favorita y los ingredientes que más te
+                    gustan. Ponle nombre a tu receta y guárdala para hacer tu próximo pedido más rápido y fácil.
+                </p>
+                <small>No te preocupes de cerrar la página que el personalizador recordará tus preferencias.</small>
+            </div>
+            <div class="masas-wrapper">
+                <h3>Elige la masa para tu pizza</h3>
+                <div id="masas"></div>
+            </div>
+
+            <div class="ingredientes-wrapper">
+                <h3>Selecciona los ingredientes para tu pizza</h3>
+                <div id="ingredientes"></div>
+            </div>
+
+            <div class="bebidas-wrapper">
+                <h3>Acompaña tu pizza con algo de beber</h3>
+                <div id="bebidas"></div>
+            </div>
+        </div>
+        <div class="col-lg-4 sticky-wrapper">
+            <div class="imagenes-wrapper">
+                <div class="imagenes">
+                    <img id="foto-base" src="./assets/img/masa/fina.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="fixed-bottom">
+    <div class="container-xxl">
+        <div class="row">
+            <div class="col-lg-6"><span class="total-precio">Total:</span></div>
+            <div class="col-lg-6 right"><span id="total-precio">0€</span> IVA inc.</div>
+        </div>
+    </div>
+</footer>
+
+<script src="bower_components/sticky-sidebar/dist/sticky-sidebar.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "sticky-sidebar",
+  "description": "A JavaScript plugin for making smart and high performance.",
+  "version": "3.3.3",
+  "authors": [
+    "Ahmed Bouhuolia <a.bouhuolia@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "./sticky-sidebar.js",
+  "keywords": [
+    "sticky",
+    "sidebar"
+  ],
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "docs/_site",
+    "docs/.sass-cache"
+  ],
+  "dependencies": {},
+  "homepage": "https://github.com/abouolia/sticky-sidebar",
+  "devDependencies": {
+    "raf.js": "~0.0.4"
+  },
+  "_release": "3.3.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.3.3",
+    "commit": "5c53140a4dac4b7cfbd0dc05a5946963897e4bce"
+  },
+  "_source": "https://github.com/abouolia/sticky-sidebar.git",
+  "_target": "^3.3.3",
+  "_originalSource": "sticky-sidebar",
+  "_direct": true
+}
